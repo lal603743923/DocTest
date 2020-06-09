@@ -4,7 +4,7 @@
 * [面板概述](./resource/Overview.md)
 * [集成准备](./resource/Preparation.md)
 * [集成 TuyaCameraPanelSDK](./resource/Integrated.md)
-* TuyaCameraPanelSDK 调用
+* [TuyaCameraPanelSDK 调用](./resource/CallSDK.md)
   * [Native 预览面板](./resource/NativePanel.md)
   * [RN 预览面板](./resource/RnPanel.md)
   * [回放面板](./resource/PlaybackPanel.md)

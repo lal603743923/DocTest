@@ -6,11 +6,12 @@
     "anchors",
     "splitter",
     "github",
+    "github-buttons",
     "anchor-navigation-ex",
+    "alerts",
     "expandable-chapters-small",
-    "pageview-count",
-    "language-picker",
-    "hide-element"
+    "favicon",
+    "pageview-count"
   ],
   "pluginsConfig": {
     "prism": {
@@ -29,11 +30,38 @@
     "github": {
       "url": "https://github.com/TuyaInc/tuyasmart_panel_ios_sdk"
     },
-    "anchor-navigation-ex": {
-      "showGoTop": false
+    "github-buttons": {
+      "buttons": [{
+        "user": "TuyaInc",
+        "repo": "tuyasmart_camera_panel_ios_sdk",
+        "type": "star",
+        "size": "small"
+      },{
+        "user": "TuyaInc",
+        "repo": "tuyasmart_camera_panel_ios_sdk",
+        "type": "watch",
+        "size": "small"
+      },{
+        "user": "TuyaInc",
+        "type": "follow",
+        "size": "small",
+        "count": true
+      }]
     },
-    "hide-element": {
-            "elements": [".gitbook-link"]
-    }
+    "sharing": {
+      "facebook": true,
+      "google": true,
+      "twitter": true,
+      "weibo": true,
+      "all": ["facebook", "google", "twitter", "weibo"]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": false,
+      "showGoTop": true
+    },
+    "favicon": {
+            "shortcut": "zh-hans/resource/images/bitbug_favicon.ico"
+        }
   }
 }
